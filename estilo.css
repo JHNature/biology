@@ -1,0 +1,198 @@
+html
+    {
+        width: 1355px;
+    }
+
+body
+    {
+        background-image: url(Universe\ Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        width: 1355px;
+        padding: 25px 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+main
+    {
+        background-color: white;
+        border-radius: 25px;
+        width: 975px;
+        height: 3375px;
+        border-style: double;
+        border-top-color: rgb(0, 140, 0);
+        border-bottom-color: rgb(0, 140, 0); 
+        border-right-color: rgb(140, 0, 0) ;
+        border-left-color: rgb(140, 0, 0) ;
+        border-width: 17.5px;
+        padding: 15px;
+        margin: 0px;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: inherit;
+        align-items: inherit;
+        background-image: url(Biology\ Background\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/*Header set*/
+
+    header
+        {
+            margin: inherit;
+            padding: 0px;
+            width: 800px;
+        }
+    
+    header img
+        {
+            width: 700px;
+            height: 500px;
+            border-radius: 30px;
+        }
+
+    #Fig_unique
+        {
+            text-align: center;
+            background-color: rgba(140, 0, 0, 0.4);
+            font-style: italic;
+            border-radius: 30px;
+            width: 500px;
+            margin: 7.25px 0px 0px 0px;
+            padding: 2.5px;
+            border: solid 2.5px;
+            font-size: 18px;
+        }
+    
+    figure
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+/*end*/
+
+h1
+    {
+        margin: 42px 0px 23px 0px;
+        text-align: center;
+    }
+
+h2
+    {
+        text-align: center;
+        margin: 17.75px 0px 25px 0px;
+    }
+
+
+/*Section set*/
+
+    section
+        {
+            box-sizing: border-box;
+            width: 850px;
+            border-top-style: double;
+            border-top-color: darkred;
+            border-top-width: 25px;
+            border-right-style: double;
+            border-right-color: darkgreen;
+            border-right-width: 15px;
+            border-left-style: solid;
+            border-left-width: 5px;
+            border-radius: 25px;
+            padding: 0px 15px;
+            margin-bottom: 7.5px;
+        }
+    
+    div
+        {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            box-sizing: inherit;
+            width: 800px;
+            height: 250px;
+            margin: 0px 0px 10px 0px;
+            border-radius: 25px;
+        }
+
+    div:hover
+        {
+            background-color: rgba(255, 255, 255, 0.7);
+            text-decoration: underline;
+        }
+
+    .Fig_styling
+        {
+            font-style: italic;
+        }
+
+    div figure
+        {
+            padding: 5px 0px 0px 0px;
+        }
+
+    div figure img
+        {
+            width: 185px;
+            height: 190px;
+            border-radius: 55px;
+            border-top-style: double;
+            border-left-style: double;
+            border-top-width: 25px; 
+            border-left-width: 15px; 
+        }
+
+    dl
+        {
+            width: 500px;
+            height: 100px;
+        }
+
+
+    div figure
+        {
+            margin: 5px 15px 0px 5px;
+        }
+
+    dd
+        {
+            margin-top: 18px;
+            text-align: justify;
+        }
+
+    a
+        {
+            font-size: 18px;
+            color: darkred;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: solid darkblue 2.5px;
+        }
+
+    #figure_styling
+        {
+            box-sizing: border-box;
+            width: 120px;
+            height: 110px;
+        }
+
+    #figure_styling img
+        {
+            width: inherit;
+            height: inherit;
+            border-radius: 25px;   
+        }
+    
+
+/**/
